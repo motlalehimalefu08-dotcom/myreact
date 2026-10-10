@@ -19,6 +19,7 @@ function UserForm({
 
                     <input
                         type="text"
+                        placeholder="Enter full name"
                         value={name}
                         onChange={e => setName(e.target.value)}
                     />
@@ -29,6 +30,7 @@ function UserForm({
 
                     <input
                         type="text"
+                        placeholder="Enter Membership ID"
                         value={membershipId}
                         onChange={e =>
                             setMembershipId(e.target.value)

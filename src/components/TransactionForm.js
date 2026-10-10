@@ -72,6 +72,7 @@ function TransactionForm({
                     <input
                         type="number"
                         min="1"
+                        placeholder="Enter quantity"
                         max={isLibrarian ? undefined : "1"}
                         value={transactionQuantity}
                         onChange={e =>

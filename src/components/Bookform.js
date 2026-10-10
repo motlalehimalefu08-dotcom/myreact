@@ -59,6 +59,7 @@ function BookForm({ books, setBooks }) {
                     <label>Title</label>
                     <input
                         type="text"
+                        placeholder="Enter the book title"
                         value={title}
                         onChange={e => setTitle(e.target.value)}
                     />
@@ -68,6 +69,7 @@ function BookForm({ books, setBooks }) {
                     <label>Author</label>
                     <input
                         type="text"
+                        placeholder="Enter the author name"
                         value={author}
                         onChange={e => setAuthor(e.target.value)}
                     />
@@ -77,6 +79,7 @@ function BookForm({ books, setBooks }) {
                     <label>Genre</label>
                     <input
                         type="text"
+                        placeholder="Enter book genre"
                         value={genre}
                         onChange={e => setGenre(e.target.value)}
                     />
@@ -86,6 +89,7 @@ function BookForm({ books, setBooks }) {
                     <label>ISBN</label>
                     <input
                         type="text"
+                        placeholder="Enter ISBN"
                         value={isbn}
                         onChange={e => setIsbn(e.target.value)}
                     />
@@ -95,6 +99,7 @@ function BookForm({ books, setBooks }) {
                     <label>Initial Quantity</label>
                     <input
                         type="number"
+                        placeholder="Enter initial quantity"
                         min="0"
                         value={quantity}
                         onChange={e => setQuantity(e.target.value)}

@@ -30,6 +30,7 @@ function Login({ users, login }) {
                     <label>Membership ID</label>
                     <input
                         type="text"
+                        placeholder="Enter Membership ID"
                         value={membershipId}
                         onChange={(e) => setMembershipId(e.target.value)}
                        
